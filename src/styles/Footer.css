@@ -1,0 +1,13 @@
+.almostfooter {
+    /* background-color:rgb(23, 23, 23); */
+    /* background-color: rgb(0, 33, 52); */
+    background-color: rgb(23, 23, 23);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: black;
+}
+.howmanydivs {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 10rem;
+}

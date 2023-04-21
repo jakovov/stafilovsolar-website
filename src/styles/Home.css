@@ -1,0 +1,353 @@
+.testslika {
+    object-fit: cover;
+}
+.bottom-left > h1, h2, h3, h4, h5, p {
+    color: white;
+}
+.firstsection {
+    position: relative;
+  }
+  
+  .image-container {
+    position: relative;
+    height: 900px;
+    overflow: hidden;
+  }
+  
+  .image {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation: zoom-in-out 15s infinite;
+  }
+  
+  .image.current {
+    opacity: 1;
+    width: 100%;
+  }
+  
+  @keyframes zoom-in-out {
+    0% {
+      transform: scale(1);
+      background-size: 100%;
+    }
+    100% {
+      transform: scale(1.3);
+      background-size: 130%;
+    }
+  }
+
+  .bottom-left {
+    width: 1000px;
+    position: absolute;
+    bottom: 40%;
+    
+    color: #ffffff;
+  }
+  
+  #fronttitle {
+    font-weight: 700;
+    font-size: 68px;
+}
+#vidipovekjebtn {
+    font-weight: bold;
+    font-size: larger;
+    background-color: rgb(1, 83, 133);
+    color: white;
+  }
+  .bottom-left {
+    
+    color: black;
+    position: absolute;
+    width: 100%;
+    bottom: 40%;
+    padding: 0rem 10rem;
+  }
+
+  #vidipovekjebtn{
+    width: 210px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .cards1 { 
+    position: relative;
+    z-index: 3;
+    margin-top:-120px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.card-holder {
+    background-color: rgb(1, 83, 133);
+    background-color: white;
+    width: 400px;
+    height: auto;
+    margin-right: 50px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 30px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 30px 0px rgba(25.000000000000004, 25.000000000000004, 25.000000000000004, 0.1);
+}
+.card-holder a svg {
+    font-size: 60px;
+    color: rgb(9, 141, 132);
+}
+.caption {
+    display: flex;
+    justify-content: row;
+    height: 60px;
+}
+body {
+    background-color: white;
+}
+.caption h3 {
+    color: black;
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+
+.description {
+
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.description p {
+    margin: 0;
+    color: #616161;
+}
+
+.homeicons {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.homeicons svg {
+    fill: rgb(9, 141, 132);
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+}
+  
+@media only screen and (max-width: 950px) {
+    .cards1 {
+    flex-wrap: wrap;
+    }
+    .card-holder {
+    width: 90%;
+    height: auto;
+    margin-bottom: 30px;
+    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    }
+    @media only screen and (max-width: 772px) {
+        .cards1 {
+        flex-wrap: wrap;
+        }
+        .card-holder {
+        width: 90%;
+        height: auto;
+        margin-bottom: 30px;
+        margin-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        }
+        
+        
+        .pero {
+          width: 100%;
+          height: 100%;
+        }
+        .pero {
+          position: relative;
+        }
+        
+        .background-image {
+          position: relative; /* add position relative to stack content */
+          background-image: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+          ), url('../images/moreinfo4.jpg');
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+          height: 500px;
+        }
+        
+        .overlay-text {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }
+        
+        .overlay-text > h2 {
+          font-size: 3rem;
+          margin-bottom: 1rem;
+        }
+        
+        .overlay-text > p {
+          font-size: 1.5rem;
+          margin-bottom: 2rem;
+        }
+        
+        button {
+          padding: 1rem 2rem;
+          background-color: rgb(9, 141, 132);
+          background-color: rgb(1, 83, 133);
+          color: #fff;
+          font-size: 1.5rem;
+          border: none;
+          border-radius: 2rem;
+          cursor: pointer;
+        }
+        .what-we-offer {
+          background-color: #fff;
+          padding: 50px 0;
+          text-align: center;
+        }
+        
+        .section-title {
+          font-size: 32px;
+          font-weight: 700;
+          margin-bottom: 50px;
+          color: rgb(9, 141, 132);
+        }
+        
+        .offer-list {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+        }
+        
+        .offer-item {
+          margin: 30px;
+          width: 350px;
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+          transition: all 0.3s ease;
+          background-color: #fff;
+          border-radius: 10px;
+        }
+        
+        .offer-item:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        .offer-img {
+          position: relative;
+          overflow: hidden;
+          border-radius: 10px 10px 0 0;
+        }
+        
+        .offer-img img {
+          object-fit: cover;
+          width: 100%;
+          height: 300px;
+          transition: all 0.3s ease;
+        }
+        
+        .offer-img:hover img {
+          transform: scale(1.2);
+        }
+        
+        .offer-details {
+          padding: 20px;
+        }
+        
+        .offer-title {
+          font-size: 24px;
+          font-weight: 700;
+          margin-bottom: 10px;
+          color: rgb(9, 141, 132);
+        }
+        
+        .offer-description {
+          font-size: 18px;
+          line-height: 1.5;
+          color: #333;
+        }
+        #root > div > div.homepage > section > div > div:nth-child(2) {
+          background-color: rgb(165, 214, 244);
+        }
+        .our-benefits {
+          background-color: #fff;
+          padding: 60px 0;
+        }
+        
+        .benefits-container {
+          display: flex;
+          width: 100%;
+          align-items: center;
+          background-color: rgb(165, 214, 244);
+          
+        }
+        
+        .benefits-text {
+          flex-basis: 40%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          max-width: 800px;
+          margin: 0 auto;
+          padding: 50px 0;
+          text-align: center;
+        }
+        
+        .benefits-text p {
+          font-size: 1.2rem;
+          line-height: 1.5;
+          margin-bottom: 15px;
+          font-family: 'Montserrat', sans-serif;
+        }
+        
+        .benefits-images {
+          flex-basis: 60%;
+          display: flex;
+          justify-content: space-around;
+        }
+        
+        .benefit-img {
+          width: 50%;
+        }
+        
+        .benefit-img img {
+          object-fit: cover;
+          width: 100%;
+          height: 572px;
+        }
+        #root > div > div.homepage > section.our-benefits > div > div.benefits-text > p {
+          color: black;
+        }.benefits-text h2 {
+          font-size: 2.5rem;
+          margin-bottom: 20px;
+          font-family: 'Montserrat', sans-serif;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
