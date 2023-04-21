@@ -1,5 +1,7 @@
 import React from 'react'
 import '../styles/Footer.css'
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 function Footer() {
   return (
@@ -27,9 +29,10 @@ function Footer() {
         </div>
         <div className="second">
           <h3>Социјални Мрежи</h3>
-          <i className="fa fa-facebook-official"></i>
-          <i className="fa fa-linkedin-square"></i>
-          <i className="fa fa-instagram"></i>
+          <a href="https://www.facebook.com/12stafilovpetrov" target="_blank" rel="noopener noreferrer"><FacebookIcon/></a>
+          <a href="https://www.facebook.com/12stafilovpetrov" target="_blank" rel="noopener noreferrer"><InstagramIcon/></a>
+          {/* <a href='https://www.facebook.com/12stafilovpetrov'><FacebookIcon/></a>
+          <a href='https://www.facebook.com/12stafilovpetrov'><InstagramIcon/></a> */}
         </div>
         <div className="logofoot">
           <img className="imglogo" src="images/novologo.png" alt="" height="150px" />

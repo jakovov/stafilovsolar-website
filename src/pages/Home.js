@@ -11,8 +11,9 @@ import Stats from '../components/Stats'
 import homesolar from '../images/homesolar.jpg'
 import firmsolar from '../images/firmsolar2.jpg'
 import product from '../images/product.jpg'
-import test from '../images/test.jpg'
+import test from '../images/test1.jpg'
 import test2 from '../images/test2.jpg'
+
 
 import '../styles/Home.css';
 

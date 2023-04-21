@@ -294,6 +294,8 @@ body {
         .our-benefits {
           background-color: #fff;
           padding: 60px 0;
+          padding-top: 100px;
+          padding-bottom: 0px;
         }
         
         .benefits-container {
@@ -301,7 +303,8 @@ body {
           width: 100%;
           align-items: center;
           background-color: rgb(165, 214, 244);
-          
+          background-color: rgb(38, 96, 132);
+          background-color: rgb(1, 83, 133);
         }
         
         .benefits-text {
@@ -314,7 +317,10 @@ body {
           max-width: 800px;
           margin: 0 auto;
           padding: 50px 0;
-          text-align: center;
+          padding-top: 50px;
+          padding-left: 10rem;
+          /* text-align: center; */
+          text-align: left;
         }
         
         .benefits-text p {
@@ -322,6 +328,8 @@ body {
           line-height: 1.5;
           margin-bottom: 15px;
           font-family: 'Montserrat', sans-serif;
+          text-align: left;
+          width: 99%;
         }
         
         .benefits-images {
@@ -341,13 +349,17 @@ body {
         }
         #root > div > div.homepage > section.our-benefits > div > div.benefits-text > p {
           color: black;
+          
         }.benefits-text h2 {
+          width: 100%;
           font-size: 2.5rem;
           margin-bottom: 20px;
           font-family: 'Montserrat', sans-serif;
+          text-align: left !important;
         }
         @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
         body {
             font-family: 'Montserrat', sans-serif;
         }
+        

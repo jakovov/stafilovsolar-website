@@ -39,7 +39,7 @@ function Stats() {
             <h1 className="stat-number" data-n={13}>
               {art}
             </h1>
-            <h1 className="stat-title">Искуство</h1>
+            <h1 className="stat-title">Години искуство</h1>
           </div>
           <div className="stat-two">
             <h1 className="stat-number" data-n={200}>

@@ -5,10 +5,12 @@
   display: flex;
   flex-direction: column;
   font-family: 'Poppins', sans-serif;
+  
 }
 body {
   padding: 0;
   margin: 0;
+  
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 

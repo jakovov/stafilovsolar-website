@@ -11,3 +11,7 @@
     justify-content: space-between;
     padding: 2rem 10rem;
 }
+#root > div > div.almostfooter > div > div.second > a > svg {
+    color: white;
+    font-size: 50px;
+}
