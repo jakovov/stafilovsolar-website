@@ -7,7 +7,6 @@ import ElectricBoltIcon from '@mui/icons-material/ElectricBolt';
 import SupportIcon from '@mui/icons-material/Support';
 import BuildIcon from '@mui/icons-material/Build';
 // import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
-import Reviews from '../components/Reviews';
 import Stats from '../components/Stats'
 import homesolar from '../images/homesolar.jpg'
 import firmsolar from '../images/firmsolar2.jpg'
@@ -103,10 +102,10 @@ function Home() {
     </div>
     <div class="benefits-images">
       <div class="benefit-img">
-        <img src={test} alt="Benefit Image 1"/>
+        <img src={test} alt="Benefit1"/>
       </div>
       <div class="benefit-img">
-        <img src={test2} alt="Benefit Image 2"/>
+        <img src={test2} alt="Benefit2"/>
       </div>
     </div>
   </div>
