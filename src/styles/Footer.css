@@ -9,7 +9,8 @@
 .howmanydivs {
     display: flex;
     justify-content: space-between;
-    padding: 2rem 10rem;
+    padding: 0rem 10rem;
+    padding-top: 80px;
 }
 #root > div > div.almostfooter > div > div.second > a > svg {
     color: white;

@@ -32,7 +32,7 @@ const Navbar = () => {
             </li>
         </ul>
       </div>
-      <Link to="/kontakt"><button className="btn kontaktlink  my-2 my-sm-0" type="submit" id="kontaktbtn"> <img src={Icon} alt="" width="35px"></img> Контакт</button></Link>
+      <Link to="/kontakt"><button className="btn kontaktlink  my-2 my-sm-0" type="submit" id="kontaktbtn"> Контакт</button></Link> 
       
       
     </nav>

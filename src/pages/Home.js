@@ -13,6 +13,7 @@ import firmsolar from '../images/firmsolar2.jpg'
 import product from '../images/product.jpg'
 import test from '../images/test1.jpg'
 import test2 from '../images/test2.jpg'
+import { Link } from "react-router-dom";
 
 
 import '../styles/Home.css';
@@ -160,9 +161,12 @@ function Home() {
   </div>
 </section>
 
-
-
-
+            <div className='kava'>
+            <div className='zafir'>
+            <div><h2>Не двоумете се да не контактирате во секое време.</h2></div>
+            <Link to="/kontakt"><button className="btn kontaktlink  my-2 my-sm-0" type="submit" id="kontaktbtn2"> Контакт</button></Link>
+            </div>
+</div>
     
     </div>
   );
