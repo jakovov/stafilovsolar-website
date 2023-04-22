@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../images/novologo.png';
 import { Link } from "react-router-dom";
-import Icon from '../images/zolto-removebg.png'
+// import Icon from '../images/zolto-removebg.png'
 import '../styles/Navbar.css'
 const Navbar = () => {
     return (
