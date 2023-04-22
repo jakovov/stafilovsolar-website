@@ -85,7 +85,7 @@ function Home() {
 
                     <div className="description">
                     
-                    <p>Квалитетната работа е кључна за максимизирање на енергетската ефикасност на соларните панели и фотоволтаичните системи. Затоа, инсталирајте ја вашата система со професионални инсталатери.
+                    <p>Квалитетната работа е клучна за максимизирање на енергетската ефикасност на соларните панели и фотоволтаичните системи. Затоа, инсталирајте ја вашата система со професионални инсталатери.
                     </p>
                 </div>
                 </div>
@@ -94,18 +94,18 @@ function Home() {
 
 
 
-          <section class="our-benefits">
-  <div class="benefits-container">
-    <div class="benefits-text">
-      <h2 class="section-title">ВАШИТЕ ПРИДОБИВКИ</h2>
+          <section className="our-benefits">
+  <div className="benefits-container">
+    <div className="benefits-text">
+      <h2 className="section-title">ВАШИТЕ ПРИДОБИВКИ</h2>
       <p>Зошто да изберете Стафилов-Солар</p>
       <p>Изборот на соларни панели нуди одржлив и рентабилен начин за напојување на вашиот дом или бизнис, истовремено намалувајќи го јаглеродот. Нашите системи за соларни панели се дизајнирани да ви овозможат долгорочни заштеди на вашите сметки за енергија, да ја зголемат вредноста на вашиот имот и да придонесат за почиста и поздрава животна средина. Изберете Стафилов-Солар за посветла иднина.</p>
     </div>
-    <div class="benefits-images">
-      <div class="benefit-img">
+    <div className="benefits-images">
+      <div className="benefit-img">
         <img src={test} alt="Benefit1"/>
       </div>
-      <div class="benefit-img">
+      <div className="benefit-img">
         <img src={test2} alt="Benefit2"/>
       </div>
     </div>

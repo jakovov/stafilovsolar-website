@@ -25,7 +25,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    animation: zoom-in-out 15s infinite;
+    animation: zoom-in-out 14s infinite;
   }
   
   .image.current {
@@ -131,6 +131,9 @@ body {
 .description p {
     margin: 0;
     color: #616161;
+    /* color: #020202; */
+    font-weight: 700;
+    
 }
 
 .homeicons {
@@ -287,6 +290,7 @@ body {
           font-size: 18px;
           line-height: 1.5;
           color: #333;
+          font-weight: 700;
         }
         #root > div > div.homepage > section > div > div:nth-child(2) {
           background-color: rgb(165, 214, 244);
@@ -330,6 +334,8 @@ body {
           font-family: 'Montserrat', sans-serif;
           text-align: left;
           width: 99%;
+          font-weight: 700;
+          
         }
         
         .benefits-images {

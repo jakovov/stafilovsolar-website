@@ -15,3 +15,20 @@
     color: white;
     font-size: 50px;
 }
+.footer {
+    text-align: center;
+}
+#root > div > div.almostfooter > div.footer > p > a {
+    text-decoration: none;
+    color: orange;
+}
+#footerlogo {
+    width: 150px;
+    height: 150px;
+}
+#root > div > div.almostfooter > div.howmanydivs > div > h3 {
+    font-weight: bold;
+}
+#root > div > div.almostfooter > div.howmanydivs > div:nth-child(2) > p {
+    padding-bottom: 6px;
+}
