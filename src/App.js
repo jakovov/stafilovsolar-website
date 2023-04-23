@@ -2,6 +2,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from '../src/pages/Home'
 import Footer from './components/Footer';
+import About from './pages/About';
+import Contact from './pages/Contact';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 function App() {
   return (
@@ -13,9 +15,9 @@ function App() {
           {/* <Route path='/zavasiotdom' element={<Foryourhome/>}/>
           <Route path='/zabiznis' element={<Foryourbusiness/>}/>
           <Route path='/produkti' element={<Products/>}/>
-          <Route path='/proekti' element={<Projects/>}/>
-          <Route path='/zanas' element={<Forus/>}/>
-          <Route path='/kontakt' element={<Contact/>}/> */}
+          <Route path='/proekti' element={<Projects/>}/> */}
+          <Route path='/zanas' element={<About/>}/>
+          <Route path='/kontakt' element={<Contact/>}/>
         </Routes>
         <Footer/>
         </div>

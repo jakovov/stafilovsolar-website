@@ -1,0 +1,28 @@
+
+
+.about-inside {
+    display: flex;
+    justify-content: center;
+}
+.about-description {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0rem;
+    text-align: left;
+}
+div.about > div > div > h5{
+    color: black;
+}
+div.about > div > div > p{
+    color: black;
+}
+.about-logo {
+    padding: 2rem 0rem;
+}
+.about-logo-img {
+    width: 220px;
+    height: 200px;
+}
