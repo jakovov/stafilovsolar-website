@@ -108,8 +108,7 @@ input, textarea{
 .test2 textarea {
   height: 150px;
 }
-
-div.aboutpage > div.test > div > div.emailform > div > div > h6, h2, p {
+.card-title-items{
     text-align: left;
     color: black;
 }
