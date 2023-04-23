@@ -35,9 +35,9 @@ function Contact() {
                 <h5>Нашата локација</h5>
                   <p><LocationOnIcon/>Шишка 53, Кавадарци</p>
                 <h5>Брз контакт</h5>
-              <p><EmailIcon/>info@stafilovsolar.com</p>
-              <p><CallIcon/>+389 70 316 027</p>
-              <h5>Opening Hours</h5>
+              <p><EmailIcon/>info@stafilovsolar.com <br/>
+              <CallIcon/>+389 70 316 027</p>
+              <h5>Работно време</h5>
               <p>Од Понеделник - Петок<br/>
                     08:00 AM - 16:00 PM</p>
                 </div>

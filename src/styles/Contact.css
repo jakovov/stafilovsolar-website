@@ -42,7 +42,7 @@ div.Map > iframe{
     flex-direction: row;
 }
 .emailform {
-    width: 70%;
+    width: 75%;
     /* background-color: rgb(9, 141, 132); */
     
     display: flex;
@@ -62,7 +62,7 @@ input, textarea{
      color: white;
      padding-top: 10px;
      height: 595px;
-     width: 30%;
+     width: 25%;
  }
  .card-img-top {
     width: 190px;
@@ -82,7 +82,7 @@ input, textarea{
     text-align: left;
     align-items: center;
     width: 330px;
-    padding-top: 50px;
+    padding-top: 10px;
     height: 150px;
  }
 
@@ -90,6 +90,7 @@ input, textarea{
     font-weight: 700;
     margin-bottom: 20px;
  }
+
  #cardbodycontact > div > p {
     color: rgb(141, 163, 176);
  }
