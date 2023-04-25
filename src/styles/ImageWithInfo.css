@@ -1,0 +1,117 @@
+.image-container1 {
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  
+  .info-container {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    right: 0;
+    top: 60%;
+    height: 80px;
+    width: 80%;
+    background-color: #ffffff;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(234, 234, 234);
+  }
+  
+  .image-container:hover .info-container {
+    transform: translateY(0);
+  }
+  .Projects-home-inside > div > img {
+    width:400px;
+    height: 500px;
+    object-fit: cover;
+  }  
+  .Projects-home-inside {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .info-container h5 {
+    color: rgb(9, 141, 132);
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+  }
+  
+  .info-container p {
+    font-weight: 700;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+  }
+  .Projects-home {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-container1 img {
+    transition: transform 0.3s ease-in-out;
+    
+  }
+  
+  .image-container1:hover img {
+    transform: scale(1.1);
+  }
+  @media only screen and (min-width: 1200px) {
+    .Projects-home-inside {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .Projects-home-inside > div {
+      width: 23%;
+    }
+  }
+  @media only screen and (min-width: 916px) and (max-width: 1200px) {
+    .Projects-home-inside {
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 0px 50px;
+    }
+    .Projects-home-inside > div {
+      width: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .Projects-home {
+       padding-bottom: 50px;
+    }
+  }
+  @media only screen and (max-width: 916px) {
+    .Projects-home-inside {
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .Projects-home-inside > div {
+        width: 400px;
+      
+    }
+    .image-container1 {
+        margin-bottom: 50px;
+    }
+  
+  }
+      

@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Ja Solar - 380W",
+      "description": "Lorem ipsum dolor sit amet...",
+      "price": "500MKD",
+      "image": "/static/media/jasolar.8d78dd1e2656fe1b9215.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Ja Solar - 545W",
+      "description": "Lorem ipsum dolor sit amet...",
+      "price": "1500MKD",
+      "image": "/static/media/jasolar.8d78dd1e2656fe1b9215.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Ja Solar - 590W",
+      "description": "Lorem ipsum dolor sit amet...",
+      "price": "300MKD",
+      "image": "/static/media/jasolar.8d78dd1e2656fe1b9215.jpg"
+    },
+    {
+      "id": 4,
+      "name": "HareonSolar - 255W",
+      "description": "Lorem ipsum dolor sit amet...",
+      "price": "200MKD",
+      "image": "/static/media/jasolar.8d78dd1e2656fe1b9215.jpg"
+    },
+    {
+      "id": 5,
+      "name": "SevenStar - 250W",
+      "description": "Lorem ipsum dolor sit amet...",
+      "price": "300MKD",
+      "image": "/static/media/jasolar.8d78dd1e2656fe1b9215.jpg"
+    }
+  ]
+  
