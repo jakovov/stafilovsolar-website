@@ -15,14 +15,22 @@ import test from '../images/test1.jpg'
 import test2 from '../images/test2.jpg'
 import { Link } from "react-router-dom";
 import ImageWithInfo from '../components/ImageWithInfo';
-import project1 from '../images/project1.jpg';
-import project2 from '../images/project2.jpg';
-import project3 from '../images/project3.jpg';
-import project5 from '../images/project5.jpg';
+// import project1 from '../images/project1.jpg';
+// import project2 from '../images/project2.jpg';
+// import project3 from '../images/project3.jpg';
+// import project5 from '../images/project5.jpg';
 import aboutusImg from '../images/about-us-homepage.jpg'
 import LightbulbIcon from '@mui/icons-material/Lightbulb';
 
 import '../styles/Home.css';
+
+
+import project1 from '../images/projects/project1.jpg'
+import project2 from '../images/projects/project2.jpg'
+import project3 from '../images/projects/project3.jpg'
+import project4 from '../images/projects/project4.jpg'
+import project5 from '../images/projects/project5.jpg'
+import project6 from '../images/projects/project6.jpg'
 
 
 
@@ -192,7 +200,7 @@ function Home() {
 
       <div className='Projects-home'>
       <div className='Projects-title-home'><h2>Нашите последни проекти</h2></div>
-      <div className='Projects-home-inside'>
+      {/* <div className='Projects-home-inside'>
         <ImageWithInfo
           src={project1}
           alt="Home solar panel"
@@ -215,11 +223,71 @@ function Home() {
           info={{ __html: '<h5>Маркет Дијана</h5><p>10KW</p>' }}
         />
         
-      </div>
+        
+
+
+
+      </div> */}
+
+
+      <div className='home-projects-container'>
+      <div class="container23">
+  <div class="left">
+ 
+  <ImageWithInfo
+          className="top-img"
+          src={project1}
+          alt="Home solar panel"
+          info={{ __html: '<h5>Демир Капија</h5><p>20KW</p>' }}
+        />
+ 
+    <div class="bottom-images">
+    <ImageWithInfo
+    className="small-img"
+          src={project2}
+          alt="Home solar panel"
+          info={{ __html: '<h5>Памела Неготино</h5><p>40KW</p>' }}
+        />
+      <ImageWithInfo
+      className="small-img"
+          src={project3}
+          alt="Home solar panel"
+          info={{ __html: '<h5>Гевгелија</h5><p>60KW</p>' }}
+        />
+    </div>
+  </div>
+  <div class="right">
+    <div class="top-images">
+    <ImageWithInfo
+          className="small-img"
+          src={project4}
+          alt="Home solar panel"
+          info={{ __html: '<h5>Владенци, Василево<p>40KW</p>' }}
+        />
+      <ImageWithInfo
+          className="small-img"
+          src={project5}
+          alt="Home solar panel"
+          info={{ __html: '<h5>Демир Капија</h5><p>20KW</p>' }}
+        />
+    </div>
+    <ImageWithInfo
+          
+          src={project6}
+          alt="Home solar panel"
+          
+          info={{ __html: '<h5>Демир Капија</h5><p>20KW</p>'
+           }}
+           className="bottom-img"
+        />
+  </div>
+</div>
+</div>
       <Link to="/proekti"><button className='Load-more-project-home'>Дознај повеќе</button></Link>
       </div>
 
-      
+
+
 
      
 

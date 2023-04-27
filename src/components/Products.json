@@ -2,37 +2,37 @@
     {
       "id": 1,
       "name": "Ja Solar - 380W",
-      "description": "Lorem ipsum dolor sit amet...",
+      "description": "Ja Solar - 380W за моќна сончева енергија. Овој висококвалитетен соларен панел обезбедува сигурни перформанси и максимална ефикасност, со елегантен дизајн кој изгледа одлично на секој покрив.",
       "price": "500MKD",
-      "image": "/static/media/jasolar.8d78dd1e2656fe1b9215.jpg"
+      "image": "../images/jasolar.jpg"
     },
     {
       "id": 2,
       "name": "Ja Solar - 545W",
-      "description": "Lorem ipsum dolor sit amet...",
+      "description": "Надградете го вашиот систем за соларна енергија со соларниот панел со високи перформанси од 545 W на Ja Solar. Со својот елегантен дизајн и издржлива конструкција, тој е сигурен и ефикасен избор за напојување на вашиот дом или бизнис.",
       "price": "1500MKD",
-      "image": "/static/media/jasolar.8d78dd1e2656fe1b9215.jpg"
+      "image": "../images/jasolar.jpg"
     },
     {
       "id": 3,
       "name": "Ja Solar - 590W",
-      "description": "Lorem ipsum dolor sit amet...",
+      "description": "Со висока ефикасност и исклучителни перформанси, овој панел е совршен за станбени или комерцијални апликации. Елегантниот дизајн и издржливата конструкција го прават сигурен избор за напојување на вашиот дом или бизнис.",
       "price": "300MKD",
-      "image": "/static/media/jasolar.8d78dd1e2656fe1b9215.jpg"
+      "image": "../images/jasolar.jpg"
     },
     {
       "id": 4,
       "name": "HareonSolar - 255W",
-      "description": "Lorem ipsum dolor sit amet...",
+      "description": "HareonSolar - 255W е соларен панел со високи перформанси дизајниран за станбена и комерцијална употреба. Со својата напредна технологија и елегантен дизајн, тој обезбедува сигурно и ефикасно производство на енергија за вашиот дом или бизнис.",
       "price": "200MKD",
-      "image": "/static/media/jasolar.8d78dd1e2656fe1b9215.jpg"
+      "image": "../images/jasolar.jpg"
     },
     {
       "id": 5,
       "name": "SevenStar - 250W",
-      "description": "Lorem ipsum dolor sit amet...",
+      "description": "Добијте сигурна и ефикасна сончева енергија со соларниот панел од 250W на SevenStar. Направен со висококвалитетни материјали, обезбедува одлични перформанси и издржливост. Искусете долгорочни заштеди на вашите сметки за енергија и намалете го јаглеродот со SevenStar.",
       "price": "300MKD",
-      "image": "/static/media/jasolar.8d78dd1e2656fe1b9215.jpg"
+      "image": "../images/jasolar.jpg"
     }
   ]
   

@@ -31,5 +31,5 @@
     font-weight: bold;
 }
 #root > div > div.almostfooter > div.howmanydivs > div:nth-child(2) > p {
-    padding-bottom: 6px;
+    /* padding-bottom: 6px; */
 }

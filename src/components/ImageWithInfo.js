@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/ImageWithInfo.css';
 
-const ImageWithInfo = ({ src, alt, info }) => {
+const ImageWithInfo = ({ src, alt, className, info }) => {
   const [showInfo, setShowInfo] = useState(false);
 
   const handleMouseEnter = () => {
@@ -25,6 +25,7 @@ const ImageWithInfo = ({ src, alt, info }) => {
       <img
         src={src}
         alt={alt}
+        classname={className}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       />

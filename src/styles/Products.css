@@ -1,42 +1,113 @@
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+#product-hr {
+  border: 0;
+  height: 3px;
+  width: 30px;
+  margin: 22px 0 20px;
+  opacity: 1;
+  background-color: rgba(1, 83, 133, 0.95);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  margin: 0 0 1.5em 0;
+
+}
+
+.products-main-container > div > div > a {
+  display: inline-block;
+  background-color: rgba(1, 83, 133, 0.95);
+  color: white;
+  text-align: center;
+  padding: 1.5em 1em;
+  white-space: nowrap;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -30px;
+  right: 30px;
+}
+
+.product {
+  position: relative;
+  width:360px;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.product__image {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.product__title {
+  font-size: 25px;
+  margin: 0 0 0.5em 0;
+  line-height: 1.1;
+}
+
+.product__price {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -30px;
+  left: -30px;
+  width: 100px;
+  height: 100px;
+}
+.products-main-container > div > div > span {
+  background-color: black;
+  background-color: rgb(9, 141, 132);
+  color: white;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+
 .products-container {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 30px 0px;
-    height: 100vh;
-  }
-  
-  .product-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 300px;
-    padding: 20px;
-    height: 420px;
-    background-color: rgb(1, 83, 133);
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-  }
-  
-  .product-name {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .product-description {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .product-price {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .product-image {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-  }
-  
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 100px;
+}
+.products-main-container {
+  width: 70%;
+}
+.invertors > .products-main-container2 > .products-container > .product > p {
+  color: black;
+}
+.products-main-container > div > div > label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  display: block;
+}
+#kWSelect {
+  margin-bottom: 30px;
+}
+.products-main-container > div > div > img {
+  width: 100%;
+  height: 300px;
+}
+.fotovoltaici {
+  display: flex;
+  justify-content: center;
+ height: auto;
+  padding: 50px 0px;
+  align-items: center;
+}

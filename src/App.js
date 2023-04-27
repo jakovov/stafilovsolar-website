@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Products from './pages/Products';
+import Invertors from './pages/Invertors';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           {/* <Route path='/zavasiotdom' element={<Foryourhome/>}/>
           <Route path='/zabiznis' element={<Foryourbusiness/>}/> */}
           <Route path='/fotovoltaici' element={<Products/>}/>
+          <Route path='/invertori' element={<Invertors/>}/>
           {/* <Route path='/proekti' element={<Projects/>}/> */}
           <Route path='/zanas' element={<About/>}/>
           <Route path='/kontakt' element={<Contact/>}/>
