@@ -41,7 +41,7 @@ function Invertors() {
                   <option key={option.kW} value={option.kW}>{option.kW} kW</option>
                 ))}
               </select>
-              <a href="" className="product__btn btn"><ShoppingCartIcon/>Додај во кошничка</a>
+              <a href="/invertori" className="product__btn btn"><ShoppingCartIcon/>Додај во кошничка</a>
             </div>
           ))
         ))}

@@ -15,7 +15,7 @@ function ProductsPage() {
   <h1 className="product__title">{product.name}</h1>
   <hr id='product-hr'/>
   <p>{product.description}</p>
-  <a href="" className="product__btn btn"><ShoppingCartIcon/>Додај во кошничка</a>
+  <a href="/fotovoltaici" className="product__btn btn"><ShoppingCartIcon/>Додај во кошничка</a>
 </div>
         ))}
       </div>
