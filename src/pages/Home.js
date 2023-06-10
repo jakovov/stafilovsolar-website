@@ -20,7 +20,7 @@ import ImageWithInfo from '../components/ImageWithInfo';
 // import project3 from '../images/project3.jpg';
 // import project5 from '../images/project5.jpg';
 import aboutusImg from '../images/about-us-homepage.jpg'
-import LightbulbIcon from '@mui/icons-material/Lightbulb';
+// import LightbulbIcon from '@mui/icons-material/Lightbulb';
 
 import '../styles/Home.css';
 

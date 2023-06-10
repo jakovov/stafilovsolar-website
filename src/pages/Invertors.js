@@ -26,7 +26,7 @@ function Invertors() {
 
   const [cartItems, setCartItems] = useState([]);
   const [showOrderForm, setShowOrderForm] = useState(false);
-  const [showExecuteOrder, setShowExecuteOrder] = useState(false);
+  const [showExecuteOrder] = useState(false);
 
   const addToCart = (product, option) => {
     if (!option || typeof option !== 'object' || !option.price) {
@@ -60,12 +60,12 @@ function Invertors() {
     setShowOrderForm(true);
   };
 
-  const handleExecuteOrder = () => {
-    // Code to execute the order
-    // This function can be implemented as per your requirements
-    setShowOrderForm(false);
-    setShowExecuteOrder(true);
-  };
+  // const handleExecuteOrder = () => {
+  //   // Code to execute the order
+  //   // This function can be implemented as per your requirements
+  //   setShowOrderForm(false);
+  //   setShowExecuteOrder(true);
+  // };
 
   return (
     <section className='invertors'>
@@ -76,7 +76,7 @@ function Invertors() {
               (option.kW === selectedKW[product.name]) && // only show the selected kW for this product
               <div key={`${product.name}-${option.kW}`} className="product">
                 <span className="product__price">{option.price}</span>
-                <div className='product__image_main'> <img className="product__image" src={option.image} alt={product.name} /></div>
+                <div className='product__image_main'> <img className="product__image" src={option.image} alt={product.name}/></div>
                
                 <h1 className="product__title">{product.name} {option.kW} kW</h1>
                 <hr id='product-hr' />
@@ -91,9 +91,9 @@ function Invertors() {
                     <option key={option.kW} value={option.kW}>{option.kW} kW</option>
                   ))}
                 </select>
-                <a className="product__btn btn" onClick={() => addToCart(product, option)}>
+                <h3 className="product__btn btn" onClick={() => addToCart(product, option)}>
                   <ShoppingCartIcon />Додај во кошничка
-                </a>
+                </h3>
               </div>
             ))
           ))}
