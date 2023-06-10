@@ -25,7 +25,7 @@ const ImageWithInfo = ({ src, alt, className, info }) => {
       <img
         src={src}
         alt={alt}
-        classname={className}
+        className={className}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       />
