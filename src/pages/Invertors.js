@@ -61,8 +61,6 @@ function Invertors() {
   };
 
   // const handleExecuteOrder = () => {
-  //   // Code to execute the order
-  //   // This function can be implemented as per your requirements
   //   setShowOrderForm(false);
   //   setShowExecuteOrder(true);
   // };

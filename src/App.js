@@ -11,7 +11,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Order from './components/Order';
 function App() {
   return (
-    
       <div className='App'>
       <Router>
       <Navbar/>
@@ -29,8 +28,6 @@ function App() {
         <Footer/>
         </Router> 
         </div>
-    
-    
   );
 }
 
