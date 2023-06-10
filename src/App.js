@@ -11,8 +11,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Order from './components/Order';
 function App() {
   return (
-    <Router>
-      <div className='App'> 
+    
+      <div className='App'>
+      <Router>
       <Navbar/>
         <Routes>
           <Route path='/' element={<Home/>}/>
@@ -26,8 +27,8 @@ function App() {
           <Route path='/naracka' element={<Order/>}/>
         </Routes>
         <Footer/>
+        </Router> 
         </div>
-    </Router>
     
     
   );
