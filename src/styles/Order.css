@@ -1,0 +1,10 @@
+.ordersection {
+    display: flex;
+    justify-content: center; 
+}
+#orderinfo {
+    width: 50%;
+}
+.ordersection > .emailform > .test2 {
+    width: 100%;
+}

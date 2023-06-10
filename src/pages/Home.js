@@ -180,9 +180,9 @@ function Home() {
           </div>
           
           <div className='aboutus-home-bottomdesc'>
-            <div className='aboutus-home-icon'>
+            {/* <div className='aboutus-home-icon'>
               <LightbulbIcon/>
-            </div>
+            </div> */}
             <div className='aboutus-home-bottomdesc-text'>
               <h6>Нашата цел</h6>
               <p>Стафилов Солар има за цел да ги задоволи потребите за зелена енергија на своите клиенти додека ја штити животната средина.</p>

@@ -9,12 +9,12 @@ const Navbar = () => {
        <Link to="/"><img src={Logo} alt="" id="logolink" width="100px"></img></Link>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav"> 
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link to="/zavasiotdom"  className="nav-link">За вашиот дом</Link>
           </li>
           <li className="nav-item">
           <Link to="/zabiznis"  className="nav-link">За Бизнис</Link>
-          </li>
+          </li> */}
           <li className="nav-item dropdown">
             <Link to="/zabiznis" className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Продукти</Link>
             <ul className="dropdown-menu">

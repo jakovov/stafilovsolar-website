@@ -7,32 +7,38 @@
             {
                 "kW": "3",
                 "price": "500MKD",
-                "image": "../images/3kw.jpg"
+                "image": "../images/3kw.jpg",
+                "type" : "On Grid"
             },
             {
                 "kW": "6",
                 "price": "1000MKD",
-                "image": "../images/6kw.jpg"
+                "image": "../images/6kw.jpg",
+                "type" : "On Grid"
             },
             {
                 "kW": "10",
                 "price": "300MKD",
-                "image": "../images/10kw.jpg"
+                "image": "../images/10kw.jpg",
+                "type" : "On Grid"
             },
             {
                 "kW": "20",
                 "price": "123MKD",
-                "image": "../images/20kw.jpg"
+                "image": "../images/20kw.jpg",
+                "type" : "On Grid"
             },
             {
                 "kW": "40",
                 "price": "55254MKD",
-                "image": "../images/40kw.jpg"
+                "image": "../images/40kw.jpg",
+                "type" : "On Grid"
             },
             {
                 "kW": "80",
                 "price": "41245MKD",
-                "image": "../images/80kw.jpg"
+                "image": "../images/80kw.jpg",
+                "type" : "On Grid"
             }
         ]
     },
@@ -44,13 +50,79 @@
             {
                 "kW": "40",
                 "price": "600MKD",
-                "image": "../images/sungrow40.jpg"
+                "image": "../images/sungrow40.jpg",
+                "type" : "On Grid"
             },
             {
                 "kW": "110",
                 "price": "1200MKD",
-                "image": "../images/sungrow110.jpg"
+                "image": "../images/sungrow110.jpg",
+                "type" : "On Grid"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "DEYE",
+        "description": "Инвертерот DEYE е напреден уред за конверзија на енергија кој ефикасно ја претвора DC електричната енергија во AC електрична енергија. Со висока ефикасност на конверзија, интелигентно следење и робусни безбедносни карактеристики, тој е сигурно решение за апликации за обновлива енергија.",
+        "options": [
+            {
+                "kW": "40",
+                "price": "600MKD",
+                "image": "../images/deye.png",
+                "type" : "On Grid"
+            },
+            {
+                "kW": "110",
+                "price": "1200MKD",
+                "image": "../images/sungrow110.jpg",
+                "type" : "On Grid"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Growatt",
+        "description": "Инвертерот DEYE е напреден уред за конверзија на енергија кој ефикасно ја претвора DC електричната енергија во AC електрична енергија. Со висока ефикасност на конверзија, интелигентно следење и робусни безбедносни карактеристики, тој е сигурно решение за апликации за обновлива енергија.",
+        "options": [
+            {
+                "kW": "3",
+                "price": "600MKD",
+                "image": "../images/growatt.jpg",
+                "type" : "Off Grid"
+            },
+            {
+                "kW": "5",
+                "price": "1200MKD",
+                "image": "../images/growatt.jpg",
+                "type" : "Off Grid"
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Voltronic",
+        "description": "Инвертерот DEYE е напреден уред за конверзија на енергија кој ефикасно ја претвора DC електричната енергија во AC електрична енергија. Со висока ефикасност на конверзија, интелигентно следење и робусни безбедносни карактеристики, тој е сигурно решение за апликации за обновлива енергија.",
+        "options": [
+            {
+                "kW": "1",
+                "price": "600MKD",
+                "image": "../images/voltronic.jpg",
+                "type" : "Off Grid"
+            },
+            {
+                "kW": "3",
+                "price": "1200MKD",
+                "image": "../images/voltronic.jpg",
+                "type" : "Off Grid"
+            },
+            {
+                "kW": "5",
+                "price": "1200MKD",
+                "image": "../images/voltronic.jpg",
+                "type" : "Off Grid"
             }
         ]
     }
+
 ]

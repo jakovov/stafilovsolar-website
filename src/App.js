@@ -6,7 +6,9 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Products from './pages/Products';
 import Invertors from './pages/Invertors';
+import Projects from './pages/Projects';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Order from './components/Order';
 function App() {
   return (
     <Router>
@@ -18,9 +20,10 @@ function App() {
           <Route path='/zabiznis' element={<Foryourbusiness/>}/> */}
           <Route path='/fotovoltaici' element={<Products/>}/>
           <Route path='/invertori' element={<Invertors/>}/>
-          {/* <Route path='/proekti' element={<Projects/>}/> */}
+          <Route path='/proekti' element={<Projects/>}/>
           <Route path='/zanas' element={<About/>}/>
           <Route path='/kontakt' element={<Contact/>}/>
+          <Route path='/naracka' element={<Order/>}/>
         </Routes>
         <Footer/>
         </div>

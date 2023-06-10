@@ -1,0 +1,21 @@
+.Projects-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Projects-home-inside {
+    display: flex;
+    width: 90%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  justify-content: flex-start;
+    
+}
+.Projects-main > .Projects-home-inside > .image-container1 {
+    width: 400px;
+}
