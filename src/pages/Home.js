@@ -283,7 +283,7 @@ function Home() {
   </div>
 </div>
 </div>
-      <Link to="/proekti"><button className='Load-more-project-home'>Дознај повеќе</button></Link>
+      <Link to="/proekti"><button className='Load-more-project-home'>Види повеќе</button></Link>
       </div>
 
 

@@ -52,7 +52,8 @@ p {
 }
 .product__btn {
   font-size: 1.2rem;
-  width: 100%;
+  cursor: pointer;
+  /* width: 100%; */
 }
 
 .product__title {
@@ -111,8 +112,12 @@ p {
 .fotovoltaici {
   display: flex;
   justify-content: center;
- height: auto;
-  padding: 50px 0px;
+  height: auto;
+    padding: 50px 0px;
+    align-items: flex-start;
+    width: 100%;
+    flex-direction: row;
+
 }
 #root > div > section > div.products-main-container > div > div > p {
   height: 195px;
@@ -130,12 +135,11 @@ p {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   /* max-height: 400px;
   overflow-y: auto; */
-  height: 790px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   margin-right: 130px;
-
+  min-height: 790px !important;
 }
 
 .cart-container h2 {
@@ -236,4 +240,7 @@ p {
   position: absolute;
   bottom: -30px;
   right: 30px;
+}
+.order-form-container {
+  padding-top: 100px;
 }

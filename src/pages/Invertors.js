@@ -89,7 +89,7 @@ function Invertors() {
                     <option key={option.kW} value={option.kW}>{option.kW} kW</option>
                   ))}
                 </select>
-                <h3 className="product__btn btn" onClick={() => addToCart(product, option)}>
+                <h3 className="product__btn" onClick={() => addToCart(product, option)}>
                   <ShoppingCartIcon />Додај во кошничка
                 </h3>
               </div>

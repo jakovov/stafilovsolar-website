@@ -6,19 +6,44 @@ import OrderForm from '../components/OrderForm';
 import CheckIcon from '@mui/icons-material/Check';
 
 function ProductsPage() {
+  const [selectedKW, setSelectedKW] = useState({});
+
+  // Set the default kW for each product
+  if (Object.keys(selectedKW).length === 0) {
+    const defaultKW = {};
+    products.forEach((product) => {
+      defaultKW[product.name] = product.options[0].kW;
+    });
+    setSelectedKW(defaultKW);
+  }
+
+  const handleKWChange = (productName, kW) => {
+    setSelectedKW((prevState) => ({
+      ...prevState,
+      [productName]: kW,
+    }));
+  };
+
   const [cartItems, setCartItems] = useState([]);
   const [showOrderForm, setShowOrderForm] = useState(false);
 
-  const addToCart = (product) => {
+  const addToCart = (product, option) => {
+    if (!option || typeof option !== 'object' || !option.price) {
+      console.error("Invalid option selected");
+      return;
+    }
+  
     const item = {
       id: product.id,
       name: product.name,
-      price: product.price,
-      image: product.image,
+      price: option.price,
+      image: option.image,
+      kW: option.kW,
+      type: option.type
     };
-    setCartItems([...cartItems, item]);
+  
+    setCartItems((prevCartItems) => [...prevCartItems, item]);
   };
-
   const removeCartItem = (itemId) => {
     const updatedCartItems = cartItems.filter((item) => item.id !== itemId);
     setCartItems(updatedCartItems);
@@ -38,29 +63,39 @@ function ProductsPage() {
       <div className="products-main-container">
         <div className="products-container">
           {products.map((product) => (
-            <div key={product.id} className="product">
-              {/* Product details */}
-              <span className="product__price">{product.price}</span>
-              <div className='product__image_main'><img className="product__image" src={product.image} alt={product.name} /></div>
-              <h1 className="product__title">{product.name}</h1>
-              <hr id="product-hr" />
-              <div className='product-information'>
-              <h6>Достапност: <CheckIcon/></h6>
-              <h6>Тип: Monocrystal</h6>
+            product.options.map((option) => (
+              (option.kW === selectedKW[product.name]) && // Only show the selected kW for this product
+              <div key={`${product.name}-${option.kW}`} className="product">
+                {/* Product details */}
+                <span className="product__price">{option.price}</span>
+                <div className='product__image_main'><img className="product__image" src={option.image} alt={product.name} /></div>
+                <h1 className="product__title">{product.name} {option.kW} kW</h1>
+                <hr id="product-hr" />
+                <div className='product-information'>
+                  <h6>Достапност: <CheckIcon/></h6>
+                  <h6>Тип: {option.type}</h6>
+                </div>
+                <p>{product.description}</p>
+                {/* Add to Cart button */}
+                <label htmlFor={`${product.name}-kWSelect`}>Select kW:</label>
+                <select id={`${product.name}-kWSelect`} value={selectedKW[product.name]} onChange={(e) => handleKWChange(product.name, e.target.value)}>
+                  {product.options.map((option) => (
+                    <option key={option.kW} value={option.kW}>{option.kW} kW</option>
+                  ))}
+                </select>
+                <h3 className="product__btn" onClick={() => addToCart(product, option)}>
+                  <ShoppingCartIcon />Додај во кошничка
+                </h3>
               </div>
-              
-              <p>{product.description}</p>
-              {/* Add to Cart button */}
-              <button className="product__btn" onClick={() => addToCart(product)}>
-                <ShoppingCartIcon /> Додај во кошничка
-              </button>
-            </div>
+            ))
           ))}
         </div>
       </div>
       <div className="cart-container">
         <div className="cart-items">
-          <h2>Кошничка</h2>
+          <h2>Кошничка <ShoppingCartIcon/></h2>
+          <h5>Инфо за достава: Моментално вршиме достава преку карго.</h5>
+          <hr></hr>
           {cartItems.length === 0 ? (
             <p>Немате додадено ништо во вашата кошничка.</p>
           ) : (
@@ -69,7 +104,7 @@ function ProductsPage() {
                 <li key={item.id}>
                   <img src={item.image} alt={item.name} className="cart-item__image" />
                   <div className="cart-item__details">
-                    <h3 className="cart-item__name">{item.name}</h3>
+                    <h3 className="cart-item__name">{item.name} {item.kW} kW</h3>
                     <span className="cart-item__price">{item.price}</span>
                   </div>
                   <button className="cart-item__remove" onClick={() => removeCartItem(item.id)}>
@@ -80,7 +115,7 @@ function ProductsPage() {
             </ul>
           )}
         </div>
-        {cartItems.length > 0 && (
+        {cartItems.length > 0 && !showOrderForm && (
           <div className="cart-total">
             <div>
               <span className="cart-total__label">Вкупна сума:</span>
@@ -90,13 +125,12 @@ function ProductsPage() {
               <button className="place-order-btn" onClick={handlePlaceOrder}>
                 Извршете нарачка
               </button>
-              {showOrderForm && (
-                <div className="order-form-container">
-                  <h3>Внесете ги вашите податоци за нарачка:</h3>
-                  <OrderForm cartItems={cartItems} calculateTotalPrice={calculateTotalPrice} />
-                </div>
-              )}
             </div>
+          </div>
+        )}
+        {showOrderForm && (
+          <div className="order-form-container">
+            <OrderForm cartItems={cartItems} calculateTotalPrice={calculateTotalPrice} />
           </div>
         )}
       </div>
@@ -105,6 +139,8 @@ function ProductsPage() {
 }
 
 export default ProductsPage;
+
+
 
 
 
