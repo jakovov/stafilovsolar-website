@@ -124,7 +124,6 @@ function Invertors() {
         </div>
         {showOrderForm && !showExecuteOrder && (
           <div className="order-form-container">
-            <h3>Внесете ги вашите податоци за нарачка:</h3>
             <OrderForm cartItems={cartItems} calculateTotalPrice={calculateTotalPrice} />
           </div>
         )}
