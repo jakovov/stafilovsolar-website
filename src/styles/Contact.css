@@ -145,3 +145,18 @@ input, textarea{
     position: relative;
     text-transform: uppercase;
 }
+@media screen and (max-width: 895px) {
+    .kontaktsection {
+        width: 1200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .test {
+        height: auto;
+    }
+    #kontaktkard {
+        width: auto;
+    }
+  }

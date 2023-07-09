@@ -33,3 +33,18 @@
 #root > div > div.almostfooter > div.howmanydivs > div:nth-child(2) > p {
     /* padding-bottom: 6px; */
 }
+@media only screen and (max-width: 768px) {
+    .howmanydivs {
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    .first, .second {
+      margin-bottom: 2rem;
+    }
+    #footerlogo {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  

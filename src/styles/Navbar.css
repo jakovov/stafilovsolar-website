@@ -1,43 +1,113 @@
 .navbar {
+  background-color: rgb(23, 23, 23);
+  padding: 0.5rem 2rem;
+  width: 100%;
+  flex-wrap: wrap;
+  z-index: 400;
+  position: fixed;
+}
+
+.navbar img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
+nav {
+  padding: 0%;
+}
+
+#navbarNav > ul > li > a {
+  color: white;
+  font-weight: bold;
+}
+
+#navbarNav {
+  justify-content: flex-end;
+}
+
+#navbarNav > a {
+  padding-right: 30px;
+}
+
+#navbarNav > a {
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+
+body > div > div.navbar > nav > h2 {
+  color: rgb(255, 196, 0);
+}
+
+#kontaktbtn {
+  font-weight: bold;
+  font-size: large;
+  background-color: rgb(1, 83, 133);
+  color: white;
+}
+
+@media only screen and (max-width: 992px) {
+  #navbarNav {
+    justify-content: flex-start;
+  }
+  .collapse.navbar-collapse.show {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 6rem;
+    height: 100vh;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    z-index: 300;
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color: rgb(23, 23, 23);
-     padding: 0.5rem 10rem;
-     width: 100%;
-       flex-wrap: wrap;
-   }
-   nav {
-     padding: 0%;
-   }
-   #navbarNav > ul > li > a{
-     color: white;
-     font-weight: bold;
-     
-   }
-   #navbarNav {
-     justify-content: end;
-         
-   }
-   #navbarNav > ul {
-     padding-right: 50px;
-   }
-   #navbarNav > ul > li {
-     padding-left: 20px;
-     padding-bottom: 5px;
-   }
-   body > div > div.navbar > nav > h2 {
-     color:  rgb(255, 196, 0);
-   }
-   #kontaktbtn {
-     
-     font-weight: bold;
-     font-size: large;
-     background-color: rgb(1, 83, 133);
-     color: white;
-   }
-  
-@media only screen and (max-width: 1250px){
-  #navbarNav > ul > li, #kontaktbtn{
-    display: none;
+  }
+  #navbarNav > ul > li > a {
+    text-align: center;
+  }
+  #kontaktbtn {
+    background-color: transparent;
+  }
+
+  .navbar-toggler {
+    margin-right: 0.5rem;
+    background-color: rgb(255, 252, 252);
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    transform: translateY(-50%);
+    z-index: 500;
+  }
+
+  .navbar-toggler:focus {
+    outline: none;
+  }
+
+  .navbar-toggler .navbar-toggler-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+  }
+
+  .navbar-toggler.active .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf-8,<svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><path stroke="rgba(0, 0, 0, 0.5)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg>');
+  }
+
+  .navbar-nav {
+    width: 100%;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 1rem;
   }
 }
+
+
+
+
 
 

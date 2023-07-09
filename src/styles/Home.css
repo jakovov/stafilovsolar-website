@@ -412,6 +412,28 @@ body {
           width: 180px;
           height: 65px;
         }
+        @media (max-width: 767px) {
+          .zafir {
+            width: 100%;
+            height: auto;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 0;
+            padding: 20px;
+            border-radius: 0;
+            box-shadow: none;
+          }
+        
+          #root > div > div.homepage > div.kava > div > div > h2 {
+            text-align: center;
+          }
+        
+          #kontaktbtn2 {
+            width: 100%;
+            height: auto;
+          }
+        }
         .Projects-title-home > h2 {
           font-size: 32px;
           color: #333;
@@ -605,5 +627,65 @@ text-align: center;
   }
   .left, .right {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .benefits-text h2{
+    font-size: 1.3rem;
+  }
+  
+}
+@media only screen and (max-width: 550px) {
+  .bottom-left{
+    padding: 0;
+    padding-left: 60px;
+  
+  }
+  .Load-more-project-home { 
+    width: auto;
+  }
+  .infosection-number { 
+    width: auto;
+  } 
+  #root > div > div.homepage > div.firstsection > div.bottom-left > h5 {
+    font-size: 0.83em;
+    width: 100%;
+  }
+  #fronttitle {
+    font-size: 25px;
+  }
+  .caption h3 {
+    font-size: 17px;
+  }
+  .overlay-text > h2 {
+    font-size: 1.5rem;
+  }
+  .overlay-text > p {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .benefits-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  .benefits-text {
+    padding-left: 2rem;
+    text-align: center;
+  }
+  .benefits-text p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .benefits-images {
+    margin-top: 2rem;
+  }
+  .benefit-img {
+    width: 100%;
+  }
+  .benefit-img img {
+    height: auto;
   }
 }

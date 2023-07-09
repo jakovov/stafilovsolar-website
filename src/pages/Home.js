@@ -7,7 +7,7 @@ import ElectricBoltIcon from '@mui/icons-material/ElectricBolt';
 import SupportIcon from '@mui/icons-material/Support';
 import BuildIcon from '@mui/icons-material/Build';
 // import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
-import Stats from '../components/Stats'
+// import Stats from '../components/Stats'
 import homesolar from '../images/homesolar.jpg'
 import firmsolar from '../images/firmsolar2.jpg'
 import product from '../images/product.jpg'
@@ -19,7 +19,7 @@ import ImageWithInfo from '../components/ImageWithInfo';
 // import project2 from '../images/project2.jpg';
 // import project3 from '../images/project3.jpg';
 // import project5 from '../images/project5.jpg';
-import aboutusImg from '../images/about-us-homepage.jpg'
+// import aboutusImg from '../images/about-us-homepage.jpg'
 // import LightbulbIcon from '@mui/icons-material/Lightbulb';
 
 import '../styles/Home.css';
@@ -171,18 +171,15 @@ function Home() {
         </div>
 
       </div>
-      <Stats />
+      {/* <Stats /> */}
      
-      <div className='aboutus-home'>
+      {/* <div className='aboutus-home'>
         <div className='aboutus-home-text'>
           <div className='aboutus-home-title'>За нас</div>
           <div className='aboutus-home-description'><p>Стафилов Солар е приватна компанија основана во 2020 година, која нуди соларна опрема и услуги за инсталација за домаќинствата и бизнисите во Северна Македонија. Обезбедуваме целосен опсег на фотоволтаични системи, вклучувајќи поврзани со мрежа, самостојни и хибридни системи, користејќи опрема со врвен квалитет од светски брендови. Нудиме целосна поддршка од нашиот тим за инсталација и долгорочно работење на системот.</p>
           </div>
           
           <div className='aboutus-home-bottomdesc'>
-            {/* <div className='aboutus-home-icon'>
-              <LightbulbIcon/>
-            </div> */}
             <div className='aboutus-home-bottomdesc-text'>
               <h6>Нашата цел</h6>
               <p>Стафилов Солар има за цел да ги задоволи потребите за зелена енергија на своите клиенти додека ја штити животната средина.</p>
@@ -193,7 +190,7 @@ function Home() {
         <div className='aboutus-home-img'>
             <img src={aboutusImg} alt='About us in home'></img>
         </div>
-      </div>
+      </div> */}
 
 
 
