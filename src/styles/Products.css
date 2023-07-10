@@ -241,3 +241,14 @@ p {
   bottom: -30px;
   right: 30px;
 }
+
+@media only screen and (max-width: 903px) {
+.fotovoltaici {
+  flex-direction: column;
+  align-items: center;
+}
+.cart-container {
+  margin-right: 0px;
+  margin-top: 60px;
+}
+}
