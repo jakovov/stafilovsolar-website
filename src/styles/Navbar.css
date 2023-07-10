@@ -1,6 +1,6 @@
 .navbar {
   background-color: rgb(23, 23, 23);
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 5rem;
   width: 100%;
   flex-wrap: wrap;
   z-index: 400;
@@ -44,6 +44,7 @@ body > div > div.navbar > nav > h2 {
   font-size: large;
   background-color: rgb(1, 83, 133);
   color: white;
+  border-radius: 0.5rem;
 }
 
 @media only screen and (max-width: 992px) {

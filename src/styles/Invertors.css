@@ -118,7 +118,9 @@ img {
     justify-content: center;
     /* min-height: 1600px; */
     align-items: center;
+    margin-top: 100px;
 }
+
 .invertors > .products-main-container2 > .products-container > .product > p {
   height: 170px;
 }

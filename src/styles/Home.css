@@ -430,7 +430,6 @@ body {
           }
         
           #kontaktbtn2 {
-            width: 100%;
             height: auto;
           }
         }
@@ -632,7 +631,7 @@ text-align: center;
 
 @media only screen and (max-width: 460px) {
   .benefits-text h2{
-    font-size: 1.3rem;
+    font-size: 24px;
   }
   
 }
@@ -640,7 +639,32 @@ text-align: center;
   .bottom-left{
     padding: 0;
     padding-left: 60px;
-  
+  }
+  #root > div > div.homepage > div.kava > div > div > h2 {
+    font-size: 24px;
+  }
+  #root > div > div.homepage > div.firstsection > div.bottom-left > h3 {
+    font-size: 24px;
+  }
+  #fronttitle {
+    font-size: 36px;
+  }
+  #root > div > div.homepage > div.firstsection > div.bottom-left > h5 {
+    font-size: 18px;
+    width: 100%;
+  }
+  .Load-more-project-home {
+    font-size: 1.2rem;
+    width: 200px;
+  }
+  .section-title {
+    font-size: 32px;
+  }
+  #root > div > div.homepage > div.pero > div > div > div > h4 {
+    font-size: 18px;
+  }
+  .Projects-title-home > h2 {
+    font-size:32px;
   }
   .Load-more-project-home { 
     width: auto;
@@ -648,21 +672,14 @@ text-align: center;
   .infosection-number { 
     width: auto;
   } 
-  #root > div > div.homepage > div.firstsection > div.bottom-left > h5 {
-    font-size: 0.83em;
-    width: 100%;
-  }
-  #fronttitle {
-    font-size: 25px;
-  }
   .caption h3 {
     font-size: 17px;
   }
   .overlay-text > h2 {
-    font-size: 1.5rem;
+    font-size: 24px;
   }
   .overlay-text > p {
-    font-size: 12px;
+    font-size: 18px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -676,7 +693,7 @@ text-align: center;
     text-align: center;
   }
   .benefits-text p {
-    font-size: 1rem;
+    font-size: 18px;
     margin-bottom: 1rem;
   }
   .benefits-images {
@@ -686,6 +703,9 @@ text-align: center;
     width: 100%;
   }
   .benefit-img img {
-    height: auto;
+    height: 400px;
   }
+}
+.homepage {
+  margin-top: 100px;
 }

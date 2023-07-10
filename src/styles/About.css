@@ -1,5 +1,6 @@
-
-
+.about {
+    margin-top: 100px;
+}
 .about-inside {
     display: flex;
     justify-content: center;
@@ -25,4 +26,12 @@ div.about > div > div > p{
 .about-logo-img {
     width: 220px;
     height: 200px;
+}
+@media only screen and (min-height: 897px) {
+.about {
+    min-height: 100vh;
+}
+.about-inside {
+    align-items: center;
+}
 }
