@@ -61,6 +61,7 @@ body > div > div.navbar > nav > h2 {
     transition: all 0.3s ease-in-out;
     z-index: 300;
     position: fixed;
+    padding-top: 30px;
     top: 0;
     left: 0;
     background-color: rgb(23, 23, 23);

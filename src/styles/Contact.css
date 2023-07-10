@@ -146,6 +146,12 @@ input, textarea{
     text-transform: uppercase;
 }
 @media screen and (max-width: 895px) {
+    .test2 input[type="name"],
+.test2 input[type="email"],
+.test2 input[type="number"],
+.test2 textarea {
+    padding: 0;
+}
     .kontaktsection {
         width: 1200px;
         display: flex;
@@ -157,6 +163,6 @@ input, textarea{
         height: auto;
     }
     #kontaktkard {
-        width: auto;
+        width: 250px;
     }
   }
