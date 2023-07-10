@@ -13,6 +13,7 @@ const Navbar = () => {
 
   useEffect(() => {
     setIsOpen(false);
+    window.scrollTo(0, 0); // Scroll to top on page change
   }, [location]);
 
   return (
