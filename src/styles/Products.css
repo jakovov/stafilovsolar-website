@@ -251,4 +251,24 @@ p {
   margin-right: 0px;
   margin-top: 60px;
 }
+
+}
+@media only screen and (max-width: 505px) {
+  .invertors > .products-main-container2 > .products-container > .product > p {
+    height: 245px !important;
+  }
+  .products-container {
+    margin: 0px !important;
+  }
+  .cart-container {
+    margin-right: 0px;
+    margin-top: 60px;
+    width: 360px;
+  }
+  .products-main-container {
+    margin-right: 50px;
+  }
+  .product {
+    height: 880px !important;
+  }
 }
