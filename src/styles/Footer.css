@@ -36,7 +36,7 @@
 @media only screen and (max-width: 768px) {
     .howmanydivs {
       flex-direction: column;
-      align-items: center;
+      align-items: left;
       padding: 2rem;
     }
     .first, .second {
@@ -50,9 +50,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-    .howmanydivs {
-        width: 260px;
     }
   }
   
