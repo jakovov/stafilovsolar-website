@@ -146,6 +146,9 @@ input, textarea{
     text-transform: uppercase;
 }
 @media screen and (max-width: 895px) {
+    .emailform {
+        width: auto;
+    }
     .test2 input[type="name"],
 .test2 input[type="email"],
 .test2 input[type="number"],

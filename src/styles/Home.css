@@ -684,6 +684,7 @@ text-align: center;
   .bottom-left{
     padding: 0;
     padding-left: 40px;
+    padding-bottom: 100px;
   }
   .benefits-container {
     flex-direction: column;
@@ -691,7 +692,7 @@ text-align: center;
     padding: 2rem;
   }
   .benefits-text {
-    padding-left: 2rem;
+    padding-left: 0px;
     text-align: center;
   }
   .benefits-text p {
@@ -710,4 +711,9 @@ text-align: center;
 }
 .homepage {
   margin-top: 100px;
+}
+@media only screen and (min-width: 769px) {
+  .benefits-text {
+    padding-left: 30px;
+  }
 }
