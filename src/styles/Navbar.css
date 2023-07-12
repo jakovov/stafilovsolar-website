@@ -51,9 +51,6 @@ body > div > div.navbar > nav > h2 {
   #logolink {
      width: 80px !important;
   }
-  .homepage {
-    margin-top: 0px !important;
-  }
   #navbarNav {
     justify-content: flex-start;
   }
@@ -61,7 +58,7 @@ body > div > div.navbar > nav > h2 {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 6rem;
+    margin-top: 5.4rem;
     height: 100vh;
     text-align: center;
     transition: all 0.3s ease-in-out;

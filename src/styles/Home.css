@@ -648,7 +648,7 @@ text-align: center;
   }
   #root > div > div.homepage > div.firstsection > div.bottom-left > h5 {
     font-size: 18px;
-    width: 100%;
+    width: 95%;
   }
   .Load-more-project-home {
     font-size: 1.2rem;
@@ -693,7 +693,7 @@ text-align: center;
   .bottom-left{
     padding: 0;
     padding-left: 40px;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
   }
   .benefits-container {
     flex-direction: column;
@@ -718,11 +718,13 @@ text-align: center;
     height: 400px;
   }
 }
-.homepage {
-  margin-top: 100px;
-}
 @media only screen and (min-width: 769px) {
   .benefits-text {
     padding-left: 30px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .homepage {
+    margin-top: 0px;
   }
 }
