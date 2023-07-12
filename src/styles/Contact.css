@@ -148,6 +148,7 @@ input, textarea{
 @media screen and (max-width: 895px) {
     .emailform {
         width: auto;
+        justify-content: center;
     }
     .test2 input[type="name"],
 .test2 input[type="email"],
