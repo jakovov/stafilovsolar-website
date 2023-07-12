@@ -48,6 +48,12 @@ body > div > div.navbar > nav > h2 {
 }
 
 @media only screen and (max-width: 992px) {
+  #logolink {
+     width: 80px !important;
+  }
+  .homepage {
+    margin-top: 0px !important;
+  }
   #navbarNav {
     justify-content: flex-start;
   }
