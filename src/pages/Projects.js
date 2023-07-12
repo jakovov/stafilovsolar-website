@@ -18,6 +18,18 @@ function Projects() {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxIndex, setLightboxIndex] = useState(0);
 
+  const projectInfo = [
+    { title: 'Демир Капија', description: '20KW' },
+    { title: 'Владенци Василево', description: '40KW' },
+    { title: 'Памела Неготино', description: '33KW' },
+    { title: 'Гевгелија', description: '60KW' },
+    { title: 'Дијана Кавадарци', description: '18KW' },
+    { title: 'Дабниште', description: '200KW' },
+    { title: 'Гевгелија', description: '150KW' },
+    { title: 'Велес', description: '15KW' },
+    { title: 'Скопје', description: '22KW' },
+  ];
+
   const openLightbox = (index) => {
     setLightboxOpen(true);
     setLightboxIndex(index);
@@ -35,7 +47,9 @@ function Projects() {
             key={index}
             src={image}
             alt={`Project ${index + 1}`}
-            info={{ __html: '<h5>Демир Капија</h5><p>20KW</p>' }}
+            info={{
+              __html: `<h5>${projectInfo[index].title}</h5><p>${projectInfo[index].description}</p>`,
+            }}
             onClick={() => openLightbox(index)}
           />
         ))}
@@ -56,6 +70,7 @@ function Projects() {
 }
 
 export default Projects;
+
 
 
 
