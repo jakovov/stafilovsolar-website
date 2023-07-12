@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/ImageWithInfo.css';
 
-const ImageWithInfo = ({ src, alt, className, info }) => {
+const ImageWithInfo = ({ src, alt, className, info, onClick }) => {
   const [showInfo, setShowInfo] = useState(false);
 
   const handleMouseEnter = () => {
@@ -21,14 +21,13 @@ const ImageWithInfo = ({ src, alt, className, info }) => {
   };
 
   return (
-    <div className="image-container1">
-      <img
-        src={src}
-        alt={alt}
-        className={className}
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-      />
+    <div
+      className="image-container1"
+      onClick={onClick}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
+      <img src={src} alt={alt} className={className} />
       {showInfo && (
         <div className="info-container" onMouseEnter={handleInfoMouseEnter} onMouseLeave={handleInfoMouseLeave}>
           <div dangerouslySetInnerHTML={info} />
@@ -39,6 +38,8 @@ const ImageWithInfo = ({ src, alt, className, info }) => {
 };
 
 export default ImageWithInfo;
+
+
 
 
 
