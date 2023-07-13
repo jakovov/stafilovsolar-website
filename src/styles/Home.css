@@ -633,6 +633,7 @@ text-align: center;
   .benefits-text h2{
     font-size: 24px;
   }
+
   
 }
 @media only screen and (max-width: 550px) {
@@ -726,5 +727,10 @@ text-align: center;
 @media only screen and (max-width: 992px) {
   .homepage {
     margin-top: 0px;
+  }
+}
+@media only screen and (max-width: 1145px) {
+  .howmanydivs{
+    padding: 0rem 2rem;
   }
 }

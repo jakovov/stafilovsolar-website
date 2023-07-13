@@ -3,20 +3,17 @@ import '../styles/Footer.css'
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import Logo from '../images/novologo.png';
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="almostfooter">
         <div className="howmanydivs">
         <div className="first">
           <h3>Корисни Линкови</h3>
-          <p><strong>Контакт</strong></p>
-          
-            <p><strong>Како да ја измерете вашата потрошувачка</strong></p>
-          
+          <Link to="/kontakt">Контакт</Link>
+            <Link to="https://www.rapidtables.com/calc/electric/energy-consumption-calculator.html">Како да ја измерете вашата потрошувачка</Link>
+            <Link to="/proekti">Галерија</Link>
 
-            <p><strong>Галерија</strong></p>
-
-          <p><strong>Календар</strong></p>
         </div>
         <div className="first">
           <h3>Работно Време</h3>

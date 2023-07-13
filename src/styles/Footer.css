@@ -52,4 +52,18 @@
         align-items: center;
     }
   }
-  
+  @media only screen and (max-width: 1145px) {
+    .howmanydivs{
+        display: flex;
+        justify-content: space-between;
+        padding: 0rem 3rem;
+        padding-top: 80px;
+    }
+  }
+  #root > div > div > div.howmanydivs > div > a{
+    color: white;
+  }
+  .first {
+    display: flex;
+    flex-direction: column;
+  }
