@@ -35,3 +35,8 @@ div.about > div > div > p{
     align-items: center;
 }
 }
+@media only screen and (max-width: 992px) {
+.about {
+    margin-top: 60px;
+}
+}

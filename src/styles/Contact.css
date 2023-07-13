@@ -170,3 +170,8 @@ input, textarea{
         width: 250px;
     }
   }
+  @media only screen and (max-width: 992px) {
+    .aboutpage {
+        margin-top: 30px; 
+    }
+    }
